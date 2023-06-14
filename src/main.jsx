@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
 import { createBrowserRouter,RouterProvider } from 'react-router-dom'
-import Home from './router/home.jsx'
-import Contato from './router/contato.jsx'
-import Link from './router/Link.jsx'
+import Home from './Components/Pages/Home.jsx'
+import Contato from './Components/Pages/Contato.jsx'
+import Novo from './Components/Pages/Novo.jsx'
 
 const router =createBrowserRouter([
   {
@@ -17,8 +17,8 @@ const router =createBrowserRouter([
     element:<Contato />,
   },
   {
-    path:"Link",
-    element:<Link />,
+    path:"Novo",
+    element:<Novo />,
   }
 ]);
 

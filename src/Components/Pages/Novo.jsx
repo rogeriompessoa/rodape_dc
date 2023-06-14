@@ -1,11 +1,11 @@
 import React from 'react'
 
-const Link = () => {
+const Novo = () => {
   return (
     <div>
-        <h1>Link</h1>
+        <h1>Novo</h1>
     </div>
   );
 };
 
-export default Link;
+export default Novo;
