@@ -6,11 +6,7 @@ const Novo = () => {
 
 
   <div>
-    <div>
-      <p>
-        novo
-      </p>
-    </div>
+    
     <footer className="page-footer font-small blue pt-4">
     
     
