@@ -1,13 +1,14 @@
 
 import { useState } from 'react'
 
-import {BrowserRouter, Routes,Route,Link  } from 'react-router-dom'
+import {BrowserRouter, Routes,Route } from 'react-router-dom'
 import Home from './Components/Pages/Home'
 import Contato from './Components/Pages/Contato'
 import Novo from './Components/Pages/Novo'
 
 function App() {
-  const [count, setCount] = useState(0)
+  // eslint-disable-next-line no-empty-pattern
+  const [] = useState(0)
 
   return (
     <BrowserRouter>
@@ -18,6 +19,7 @@ function App() {
           <Route path='/' element={<Home/>} />
           <Route path='/Contato' element={<Contato />} />
           <Route path='/Home' element={<Home/>} />
+          
           <Route path='/Novo' element={<Novo/>} />
 
         </Routes>
